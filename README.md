@@ -3,27 +3,35 @@
 A modular C++ object-oriented simulation engine inspired by MasterChef-style competitive shows.  
 It models players, teams, multiple competition types, awards, and voting mechanics using clean OOP design and extensible architecture.
 
+---
+
 <h2>Features</h2>
 
 <h3>Core Entities</h3>
+
 - Player class
 - Team class with scoring and state logic.
 - Competition base class with extensible design.
 - Award hierarchy enabling multiple award types.
 
 <h3>Competition Types</h3>
+
 - Immunity Competition
 - Creativity Competition
 - Team Competition
 - (Easily extendable with new competition types)
 
 <h3>Awards</h3>
+
 - Immunity Award  
 - Food Award  
 - Excursion Award  
 
 <h3>Voting System</h3>
+
 - Standalone Voting module implementing rating & decision models.
+
+---
 
 <h2>Project Structure</h2>
 
@@ -87,11 +95,12 @@ See "docs/architecture.md" and "docs/diagrams/".
 3. Integrate award callbacks
 
 <h3>To add a new Award:</h3>
-1. Derive from `Award`
-2. Implement `apply(Player&)`
+1. Derive from "Award"
+2. Implement "apply(Player&)"
 
 ---
 
 License
 MIT License.
+
 
