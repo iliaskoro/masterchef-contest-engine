@@ -31,8 +31,6 @@ It models players, teams, multiple competition types, awards, and voting mechani
 
 - Standalone Voting module implementing rating & decision models.
 
----
-
 <h2>Project Structure</h2>
 
 ```
@@ -81,12 +79,8 @@ cmake --build .
 ./masterchef
 ```
 
----
-
 <h2>UML & Architecture</h2>
 See "docs/architecture.md" and "docs/diagrams/".
-
----
 
 <h2>Extending the Engine</h2>
 <h3>To add a new Competition:</h3>
