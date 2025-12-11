@@ -83,18 +83,19 @@ cmake --build .
 See "docs/architecture.md" and "docs/diagrams/".
 
 <h2>Extending the Engine</h2>
-<h3>To add a new Competition:</h3>
+### To add a new Competition:
 1. Derive from `Competition`
 2. Override scoring logic
 3. Integrate award callbacks
 
-<h3>To add a new Award:</h3>
-1. Derive from "Award"
-2. Implement "apply(Player&)"
+### To add a new Award:
+1. Derive from `Award`
+2. Implement `apply(Player&)`
 
 ---
 
 License
 MIT License.
+
 
 
