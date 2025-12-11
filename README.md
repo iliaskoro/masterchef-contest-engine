@@ -3,8 +3,6 @@
 A modular C++ object-oriented simulation engine inspired by MasterChef-style competitive shows.  
 It models players, teams, multiple competition types, awards, and voting mechanics using clean OOP design and extensible architecture.
 
----
-
 <h2>Features</h2>
 
 <h3>Core Entities</h3>
@@ -80,16 +78,19 @@ cmake --build .
 ```
 
 <h2>UML & Architecture</h2>
-See "docs/architecture.md" and "docs/diagrams/".
+
+See `docs/architecture.md` and `docs/diagrams/`.
 
 <h2>Extending the Engine</h2>
 
-## To add a new Competition:
+<h3>To add a new Competition:</h3>
+
 1. Derive from `Competition`
 2. Override scoring logic
 3. Integrate award callbacks
 
-## To add a new Award:
+<h3>To add a new Award:</h3>
+
 1. Derive from `Award`
 2. Implement `apply(Player&)`
 
