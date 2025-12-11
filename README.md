@@ -6,14 +6,15 @@ It models players, teams, multiple competition types, awards, and voting mechani
 <h2>Features</h2>
 
 <h3>Core Entities</h3>
-- **Player** and **Team** classes with scoring and state logic.
-- **Competition** base class with extensible design.
-- **Award** hierarchy enabling multiple award types.
+- Player class
+- Team class with scoring and state logic.
+- Competition base class with extensible design.
+- Award hierarchy enabling multiple award types.
 
 <h3>Competition Types</h3>
-- **Immunity Competition**
-- **Creativity Competition**
-- **Team Competition**
+- Immunity Competition
+- Creativity Competition
+- Team Competition
 - (Easily extendable with new competition types)
 
 <h3>Awards</h3>
@@ -22,7 +23,7 @@ It models players, teams, multiple competition types, awards, and voting mechani
 - Excursion Award  
 
 <h3>Voting System</h3>
-- Standalone **Voting** module implementing rating & decision models.
+- Standalone Voting module implementing rating & decision models.
 
 <h2>Project Structure</h2>
 
@@ -93,3 +94,4 @@ See "docs/architecture.md" and "docs/diagrams/".
 
 License
 MIT License.
+
