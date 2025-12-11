@@ -32,8 +32,7 @@ It models players, teams, multiple competition types, awards, and voting mechani
 <h2>Project Structure</h2>
 
 ```
-masterchef-contest-engine/
-│
+/
 ├── src/
 │   ├── core/
 │   │   ├── Player.cpp/h
@@ -98,3 +97,4 @@ See `docs/architecture.md` and `docs/diagrams/`.
 
 License
 MIT License.
+
